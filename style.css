@@ -1,0 +1,334 @@
+.imgdot{
+    padding: 0.3rem 0.3rem 0 0;
+    height: 13px;
+}
+.white{
+    color: white !important;
+    border: 1px solid white !important;
+}
+  .nav-link {
+    color: white !important;
+  }
+  .navbar {
+    padding-left: 0;
+  }
+  #navbarSupportedContent {
+    padding-right: 0;
+  }
+  .nav-item {
+    font-weight: bold;
+  }
+  .vivicon{
+      height: 30px;
+  }
+  
+  .active {
+    position: relative;
+  }
+  .active::after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0.1rem;
+      left: 0;
+      height: 2px;
+      width: 8%;
+      background-color: #FFBB00;
+  }
+  .jood1 {
+    background-image: url('images/bg.png');
+    width: 100%;
+    background-size: cover;
+    color: white; 
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .gettheapp {
+    background-color: #FFBB00;
+    color: white !important;
+    padding: 0.5rem 1.5rem !important;
+    border-radius: 10px !important;
+  }
+  .navbar-brand {
+    padding-left: 0;
+  }
+  
+ 
+  .btn-border-orange {
+    border: 2px solid;
+    border-radius: 8px;
+  } 
+  
+  .btn-border:hover {
+    background-color: #FFBB00;
+  }
+  #vicon {
+    display: none;
+  }
+  #playBtn:hover {
+    cursor: pointer;
+  }
+  .my-m-top {
+    margin-top: 1rem;
+  }
+  .download-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
+  /* second*/
+
+.m-top{
+   padding: 10rem;
+}
+.aboutUsBtn{
+    
+    background-color: rgb(248, 222, 175) !important;
+    color: #FFBB00 !important;
+    padding: 0.1rem 0.5rem !important;
+    border-radius: 10px solid #FFBB00;
+    
+}
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m-tpp {
+    margin-top: 4rem 0 0 0 !important;
+}
+
+.p-bottom {
+    padding-bottom: 3rem;
+}
+.disme {
+    display: none;
+}
+.disphone {
+    display: none;
+}
+
+.m-top{
+    margin-top: 0 0 0 7rem !important;
+} 
+
+
+
+/* third */
+
+.mobile2{
+    margin: 7rem 0 0 0 !important;
+    
+}
+
+#mobile-img {
+    width: 120%;
+}
+.tcb {
+    background-image: url('../assets/greyBG.png');
+    width: 100%;
+    background-size: cover;
+    color: white; 
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.p-bottom {
+    padding-bottom: 3rem;
+}
+.msh {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: -1.0rem;
+}
+.mp {
+    font-weight: 100;
+    font-size: 12px;
+    width: 110%;
+}
+
+
+/*fourth*/
+
+
+/*fifth*/
+
+.joodm {
+    background-image: url('images/GlobalLayer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.joodblue{
+    color: #1487FD;
+}
+
+/*sixth*/
+
+.joodr {
+    background-image: url('images/blue.png');
+    width: 100%;
+   
+    color: white; 
+    background-repeat: no-repeat;
+    
+}
+
+.p-top {
+    padding-top: 5rem;
+}
+
+.p-bottom {
+    padding-bottom: 5rem;
+}
+.disableMe {
+    display: none;
+}
+
+
+/*seventh*/
+
+.bluebutton {
+    background-color: #1487FD !important;
+    padding: 0.5rem 3rem !important;
+    border-radius: 12px !important;
+    padding: 0.6rem 3.5rem 0.6rem 3.5rem;
+    border-radius: 12px;
+}
+
+input {
+    border: none !important;
+        background-color: #FBFBFB !important;
+}
+textarea {
+    background-color: #FBFBFB;
+    border: none;
+    resize: none;
+    height: 200px;
+    width: 100%;
+}
+textarea::-webkit-input-placeholder {
+    background-color: #FBFBFB;
+}
+textarea::-moz-placeholder {
+    background-color: #FBFBFB;
+}
+textarea::-ms-input-placeholder {
+    background-color: #FBFBFB;
+}
+textarea::placeholder {
+    background-color: #FBFBFB;
+}
+
+/*eight*/
+
+button {
+    background-color: rgba(221, 221, 221, 0.274);
+    border: none !important;
+}
+.lastblue {
+    background-image: url('images/lastbluepart.png');
+    width: 100%;
+    background-size: cover;
+    color: white; 
+    background-repeat: no-repeat;
+    
+}
+
+.lastjood{
+  color: white;
+}
+
+.m-jood{
+  margin: -1rem 0 0 0 !important;
+}
+
+@media (min-width: 576px) { 
+  .my-m-top {
+    margin-top: 4rem !important;
+  }
+    .mobile-png {
+    background-image: url('images/Mobile.png');
+    width: 100%;
+    background-size: cover;
+    color: white; 
+  }
+  .p-bottom {
+    padding-bottom: 8rem;
+}
+
+  .mobile2{
+      margin: -3rem 0 0 0 !important;
+      
+  }
+
+  .center {
+      display: block;
+  }
+  .p-top {
+    padding-top: 6rem;
+  }
+}
+
+@media (min-width: 768px) { 
+  .my-m-top {
+    margin-top: 5rem !important;
+  }
+  #vicon {
+    display: block;
+  }
+  #vm {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .disphone {
+      display: block;
+  }
+  .disme {
+      display: block;
+  }
+  .-m-top {
+      margin-top: 0rem;
+}
+  .download-box {
+    align-items: left;
+    justify-content: left;
+  }
+  .my-m-top {
+    margin-top: 12rem !important;
+  }
+  #section1 {
+    padding: 0;
+  }
+  .p-bottom {
+    padding-bottom: 8rem;
+  }
+  .active::after {
+    left: 0.5rem;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .p-top {
+      padding-top: 5rem;
+  }
+  .disableMe {
+    display: block;
+}
+  .p-bottom {
+      padding-bottom: 0rem;
+  } 
+}
+
+
+
+
+
+
+
+
