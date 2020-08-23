@@ -77,10 +77,6 @@
     justify-content: center;
   }
   
-
-
-  /* second*/
-
 .m-top{
    padding: 10rem;
 }
@@ -115,10 +111,6 @@
     margin-top: 0 0 0 7rem !important;
 } 
 
-
-
-/* third */
-
 .mobile2{
     margin: 7rem 0 0 0 !important;
     
@@ -149,12 +141,6 @@
     width: 110%;
 }
 
-
-/*fourth*/
-
-
-/*fifth*/
-
 .joodm {
     background-image: url('images/GlobalLayer.png');
     background-repeat: no-repeat;
@@ -164,8 +150,6 @@
 .joodblue{
     color: #1487FD;
 }
-
-/*sixth*/
 
 .joodr {
     background-image: url('images/blue.png');
@@ -186,9 +170,6 @@
 .disableMe {
     display: none;
 }
-
-
-/*seventh*/
 
 .bluebutton {
     background-color: #1487FD !important;
@@ -221,8 +202,6 @@ textarea::-ms-input-placeholder {
 textarea::placeholder {
     background-color: #FBFBFB;
 }
-
-/*eight*/
 
 button {
     background-color: rgba(221, 221, 221, 0.274);
