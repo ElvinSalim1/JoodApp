@@ -202,18 +202,7 @@ textarea {
     height: 200px;
     width: 100%;
 }
-textarea::-webkit-input-placeholder {
-    background-color: #FBFBFB;
-}
-textarea::-moz-placeholder {
-    background-color: #FBFBFB;
-}
-textarea::-ms-input-placeholder {
-    background-color: #FBFBFB;
-}
-textarea::placeholder {
-    background-color: #FBFBFB;
-}
+
 
 button {
     background-color: rgba(221, 221, 221, 0.274);
