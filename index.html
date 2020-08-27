@@ -9,34 +9,39 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 <body>
     <div class="jood1">
         <div class="container">     
           <nav class="navbar navbar-expand-lg navbar-dark pt-4">
-            <a class="navbar-brand col-4 col-md-4 col-lg-2" id="brand" href="#"><h2>JOOD<img class="imgdot" src="images/Ellipse 67.png" alt=""></h2></a>
+            <a class="animated tada navbar-brand col-4 col-md-4 col-lg-2" id="brand" href="#"><h2>JOOD<img class="imgdot" src="images/Ellipse 67.png" alt=""></h2></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse col-md-8 col-lg-10" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item mr-3 active">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link animated fadeInDownBig" href="#">Home</a>
                 </li>
                 <li class="nav-item mr-3">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link animated fadeInDownBig" href="#">About Us</a>
                 </li>
                 <li class="nav-item mr-3">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link animated fadeInDownBig" href="#">Features</a>
                 </li>
                 <li class="nav-item mr-3">
-                  <a class="nav-link" href="#">Screens</a>
+                  <a class="nav-link animated fadeInDownBig" href="#">Screens</a>
                 </li>
                 <li class="nav-item mr-4">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link animated fadeInDownBig" href="#">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                <button class="btn btn-warning gettheapp my-2 my-sm-0" type="submit">Get the app</button>
+                <button class="animated bounce btn btn-warning gettheapp my-2 my-sm-0" type="submit">Get the app</button>
                 </li>
               </ul>          
             </div>
@@ -45,59 +50,68 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="my-m-top">
-                  <h1 class="Poppins heading">Creative Way To Showcase Your App</h1>
-                  <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply</p>
+                  <h1 class="animated zoomIn Poppins heading">Creative Way To Showcase Your App</h1>
+                  <p class=" animated fadeInUpBig mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply</p>
                 </div>
                 <div class="download-box">
-                  <button class="btn btn-outline-primary white btn-border">Download Now</button>
+                  <button class="animated bounce btn btn-outline-primary white btn-border">Download Now</button>
                   <div id="vicon" class="">
-                    <img id="playBtn" class="ml-3 mr-3 vivicon" src="images/icon2.png" alt="">Watch Video
+                    <img id="playBtn" class="ml-3 mr-3 vivicon" src="images/icon2.png" alt="">
+                    <button class="animated bounce btn btn-outline-primary white watchvideo">Watch Video</button>
                   </div>              
                 </div>
               </div>
               <div class="col-lg-6 mt-5">
-                  <img class="img-fluid" src="images/Mobile.png" alt="">
+                  <img class="img-fluid animated zoomIn" src="images/Mobile.png" alt="">
               </div>
             </div>
           </div>
         </div>
       </div>
       <div>
-        <div class="container p-top">
-            <div class="row">
-                <div class="col disphone">
-                    <img class="phoneversion" src="images/ec-logo-mono.png" alt="">
-                </div>
-                <div class="col disphone">
-                    <img class="ml-3" src="images/ec-logo-mono.png" alt="">
-                </div>
-                <div class="col disphone">
-                    <img class="ml-3" src="images/ec-logo-mono.png" alt="">
-                </div>
-                <div class="col disphone">
-                    <img class="ml-3" src="images/ec-logo-mono.png" alt="">
+        <section id="EcLogo" class="mt-5 mb-5">
+            <div class="container mb-4">
+
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12">
+                        <div class="owl-carousel owl-theme" id="firstslide">
+                            <div class="item d-flex justify-content-center align-items-center">
+                                <img class="mr-5 ml-5 bbbb" src="images/ec-logo-mono.png" alt="">
+                            </div>
+                            <div class="item d-flex justify-content-center align-items-center">
+                                <img class="mr-5 ml-5 bbbb" src="images/ec-logo-mono.png" alt="">
+                            </div>
+                            <div class="item d-flex justify-content-center align-items-center">
+                                <img class="mr-5 ml-5 bbbb" src="images/ec-logo-mono.png" alt="">
+                            </div>
+                            <div class="item  d-flex justify-content-center align-items-center">
+                                <img class="mr-5 ml-5 bbbb" src="images/ec-logo-mono.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        
         <div class="container mt-5 p-bottom">
             <div class="row m-tpp m-tppp">
                 <div class="col-lg-6 mt-5 disme">
-                    <img class="img-fluid" src="images/iPhone.png" alt="">
+                    <img class="img-fluid wow animated zoomIn" src="images/iPhone.png" alt="">
                 </div>
                 <div class="col-lg-6 m-top">
                     <div>
-                        <button type="button" class="btn mb-2 aboutUsBtn">About Us</button>
+                        <button type="button" class="wow animated bounce btn mb-2 aboutUsBtn">About Us</button>
                     </div>
                     <div>
-                        <h1 class="Roboto heading">Easy To Search Your Items By This App</h1>
-                        <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum </p>
+                        <h1 class="wow animated zoomIn Roboto heading">Easy To Search Your Items By This App</h1>
+                        <p class="wow animated fadeInRightBig mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum </p>
                     </div>
                     <div class="d-flex ">
                         <div class="center mr-lg mr-3">
-                            <img class="img-fluid mt-3" src="images/Google map.png" alt="">
+                            <img class="wow animated bounce img-fluid mt-3" src="images/Google map.png" alt="">
                         </div>
                         <div class="center">
-                            <img class="img-fluid mt-3" src="images/App Store.png" alt="">
+                            <img class="wow animated bounce img-fluid mt-3" src="images/App Store.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -110,22 +124,22 @@
             <div class="row m-tppp">
                 <div class="col-lg-6 ">
                     <div>
-                        <button type="button" class="btn aboutUsBtn">Features</button>
+                        <button type="button" class="wow animated bounce btn aboutUsBtn">Features</button>
                     </div>
                     <div>
-                        <h1 class="Roboto heading">Easy To Search Your Items <br> By This App</h1>
-                        <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
+                        <h1 class="wow animated zoomIn Roboto heading">Easy To Search Your Items <br> By This App</h1>
+                        <p class="wow animated fadeInLeftBig mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
                     </div>
                     <div class="container mt-5">
                         <div class="row">
                             <div class="col-12 col-md-6 pl-0">
                                 <div class="d-flex flex-row bd-highlight mb-3">
                                     <div class="pl-0 pr-2 bd-highlight">
-                                        <img src="images/icon.png" alt="">
+                                        <img class="wow animated zoomIn" src="images/icon.png" alt="">
                                     </div>
                                     <div class="p-2 bd-highlight">
-                                        <div class="msh text-left">Ease of search
-                                            <p class="mp">Lorem Ipsum is simply dummy text of the printing industry. </p>
+                                        <div class="wow animated zoomIn msh text-left">Ease of search
+                                            <p class="wow animated zoomIn mp">Lorem Ipsum is simply dummy text of the printing industry. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -133,11 +147,11 @@
                             <div class="col-12 col-md-6 pl-0">
                                 <div class="d-flex flex-row bd-highlight mb-3">
                                     <div class="pl-0 pr-2 bd-highlight">
-                                        <img src="images/icon-2.png" alt="">
+                                        <img class="wow animated zoomIn" src="images/icon-2.png" alt="">
                                     </div>
                                     <div class="p-2 bd-highlight">
-                                        <div class="msh text-left">Manage your ads
-                                            <p class="mp">Lorem Ipsum is simply dummy text of the printing industry. </p>
+                                        <div class=" wow animated zoomIn msh text-left">Manage your ads
+                                            <p class="wow animated zoomIn mp">Lorem Ipsum is simply dummy text of the printing industry. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -145,11 +159,11 @@
                             <div class="col-12 col-md-6 pl-0">
                                 <div class="d-flex flex-row bd-highlight mb-3">
                                     <div class="pl-0 pr-2 bd-highlight">
-                                        <img src="images/icon-1.png" alt="">
+                                        <img class="wow animated zoomIn" src="images/icon-1.png" alt="">
                                     </div>
                                     <div class="p-2 bd-highlight">
-                                        <div class="msh text-left">Ease main
-                                            <p class="mp">Lorem Ipsum is simply dummy text of the printing industry. </p>
+                                        <div class="wow animated zoomIn msh text-left">Ease main
+                                            <p class="wow animated zoomIn mp">Lorem Ipsum is simply dummy text of the printing industry. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -157,11 +171,11 @@
                             <div class="col-12 col-md-6 pl-0">
                                 <div class="d-flex flex-row bd-highlight mb-3">
                                     <div class="pl-0 pr-2 bd-highlight">
-                                        <img src="images/icon-3.png" alt="">
+                                        <img class="wow animated zoomIn" src="images/icon-3.png" alt="">
                                     </div>
                                     <div class="p-2 bd-highlight">
-                                        <div class="msh text-left">Ongoing support
-                                            <p class="mp">Lorem Ipsum is simply dummy text of the printing industry. </p>
+                                        <div class="wow animated zoomIn msh text-left">Ongoing support
+                                            <p class="wow animated zoomIn mp">Lorem Ipsum is simply dummy text of the printing industry. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -171,7 +185,7 @@
                     
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid mobile2 m-jood" src="images/Mobile2.png" alt="">
+                    <img class="img-fluid mobile2 m-jood wow animated zoomIn" src="images/Mobile2.png" alt="">
                 </div>
             </div>          
         </div>
@@ -181,13 +195,28 @@
         <div class="container pt-5 mt-4 pb-5 mb-4">
             <div class="row row-cols-1">
                 <div class="col-12 text-center">
-                    <h1 class="Roboto heading">Application Screens</h1>
+                    <h1 class="wow animated zoomIn Roboto heading">Application Screens</h1>
                 </div>
                 <div class="col-12 text-center">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's</p>
+                    <p class="wow animated zoomIn" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's</p>
                 </div>
-                <div class="col-12">
-                    <img class="img-fluid" src="images/Screen.png" alt="">
+                <div class="owl-carousel owl-theme" id="secondslide">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="img-fluid" src="images/iPhone.png" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="img-fluid" src="images/iPhone.png" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="img-fluid" src="images/iPhone.png" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="img-fluid" src="images/iPhone.png" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="img-fluid" src="images/iPhone.png" alt="">
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -196,27 +225,27 @@
         <div class="container pt-5 mt-4 pb-4 mb-5">
             <div class="row row-cols-1">
                 <div class="col-12 text-center">
-                    <h1 class="Roboto heading">Application Statistics</h1>
+                    <h1 class="wow animated zoomIn Roboto heading">Application Statistics</h1>
                 </div>
                 <div class="col-12 text-center">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's</p>
+                    <p class="wow animated zoomIn">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's</p>
                 </div>
                 <div class="container mt-3">
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 text-center">
                         <div class="col mt-4">
-                            <h1 class="heading joodblue">+ 1430</h1>
+                            <h1 class=" wow animated zoomIn heading joodblue">+ 1430</h1>
                             <h4>Clients</h4>
                         </div>
                         <div class="col mt-4">
-                            <h1 class="heading joodblue">+ 2430</h1>
+                            <h1 class="wow animated zoomIn heading joodblue">+ 2430</h1>
                             <h4>Beneficiaries</h4>
                         </div>
                         <div class="col mt-4">
-                            <h1 class="heading joodblue">+ 1430</h1>
+                            <h1 class=" wow animated zoomIn heading joodblue">+ 1430</h1>
                             <h4>Positive reviews</h4>
                         </div>
                         <div class="col mt-4">
-                            <h1 class="heading joodblue">+ 10.430</h1>
+                            <h1 class=" wow animated zoomIn heading joodblue">+ 10.430</h1>
                             <h4>Downloads</h4>
                         </div>
                     </div>
@@ -229,20 +258,20 @@
             <div class="row">
                 <div class="col-12 col-xl-7 ">
                     <div>
-                        <h1 class="Roboto heading mt-0.2">Download the application now ! <br> to enjoy its features</h1>
-                        <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <h1 class="wow animated zoomIn Roboto heading mt-0.2">Download the application now ! <br> to enjoy its features</h1>
+                        <p class="wow animated zoomIn mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     </div>
                     <div class="d-flex">
                         <div class="center mr-lg mr-3">
-                            <img class="img-fluid mt-3 mb-5" src="images/Google map.png" alt="">
+                            <img class="wow animated bounce img-fluid mt-3 mb-5" src="images/Google map.png" alt="">
                         </div>
                         <div class="center">
-                            <img class="img-fluid mt-3 mb-5" src="images/App Store.png" alt="">
+                            <img class="wow animated bounce img-fluid mt-3 mb-5" src="images/App Store.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-0 col-xl-5 disableMe ">
-                    <img class="img-fluid phones" src="images/icon5.png" alt="">
+                    <img class="wow animated zoomIn img-fluid phones" src="images/icon5.png" alt="">
                 </div>
             </div>          
         </div>
@@ -251,10 +280,10 @@
         <div class="container pt-5 mt-4 pb-4 mb-5">
             <div class="row row-cols-1">
                 <div class="col-12 text-center">
-                    <h1 class="Roboto heading">Contact Us</h1>
+                    <h1 class="wow animated zoomIn Roboto heading">Contact Us</h1>
                 </div>
                 <div class="col-12 text-center">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's</p>
+                    <p class="wow animated zoomIn">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's</p>
                 </div>           
             </div>
             <form>
@@ -272,7 +301,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center pt-2">
-                    <button class="btn bluebutton white" type="submit">Send</button>
+                    <button class="wow animated bounce btn bluebutton white" type="submit">Send</button>
                 </div>
             </form>
         </div>
@@ -281,33 +310,44 @@
         <div class="container pt-5 mt-4 pb-5">
             <div class="row row-cols-1">
                 <div class="col-12 text-center">
-                    <a class="navbar-brand col-4 col-md-4 col-lg-2 lastjood" href="#"><h2>JOOD<img class="imgdot" src="images/Ellipse 67.png" alt=""></h2></h2></a>
+                    <a class="wow animated tada navbar-brand col-4 col-md-4 col-lg-2 lastjood" href="#"><h2>JOOD<img class="imgdot" src="images/Ellipse 67.png" alt=""></h2></h2></a>
                 </div>
                 <div class="col-12 text-center">
                     <div class="row d-flex justify-content-center">
-                        <a class="nav-link" href="#">Home</a>
-                        <a class="nav-link" href="#">About Us</a>
-                        <a class="nav-link" href="#">Features</a>
-                        <a class="nav-link" href="#">Screens</a>
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="wow animated tada nav-link" href="#">Home</a>
+                        <a class="wow animated tada nav-link" href="#">About Us</a>
+                        <a class="wow animated tada nav-link" href="#">Features</a>
+                        <a class="wow animated tada nav-link" href="#">Screens</a>
+                        <a class="wow animated tada nav-link" href="#">Contact Us</a>
                     </div>
                 </div> 
                 <div class="d-flex justify-content-center">
                     <button type="button" class="btn m-2">
-                        <img src="images/facebook.png" alt="">    
+                        <img class="wow animated fadeInLeftBig" src="images/facebook.png" alt="">    
                     </button>    
                     <button type="button" class="btn m-2">
-                        <img src="images/twitter.png" alt="">    
+                        <img class="wow animated fadeInLeftBig" src="images/twitter.png" alt="">    
                     </button>    
                     <button type="button" class="btn m-2">
-                        <img src="images/instagram.png" alt="">    
+                        <img class="wow animated fadeInRightBig" src="images/instagram.png" alt="">    
                     </button>    
                     <button type="button" class="btn m-2">
-                        <img src="images/google-hangouts.png" alt="">    
+                        <img class="wow animated fadeInRightBig" src="images/google-hangouts.png" alt="">    
                     </button>    
                 </div>          
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

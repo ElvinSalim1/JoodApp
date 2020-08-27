@@ -1,3 +1,4 @@
+
 .imgdot{
     padding: 0.3rem 0.3rem 0 0;
     height: 13px;
@@ -21,7 +22,16 @@
   .vivicon{
       height: 30px;
   }
-  
+  .watchvideo{
+    background: transparent;
+    color: white !important;
+    padding: 0.5rem 1rem;
+    border: 1px solid #2f95fa !important;
+    border-radius: 12px !important;
+  }
+  .watchvideo:hover{
+    border-radius: 1px solid white !important;
+  }
   .active {
     position: relative;
   }
@@ -33,7 +43,7 @@
       left: 0;
       height: 2px;
       width: 8%;
-      background-color: #FFBB00;
+     
   }
   .jood1 {
     background-image: url('images/bg.png');
@@ -52,7 +62,11 @@
   .navbar-brand {
     padding-left: 0;
   }
-  
+  .nav-link:hover{
+    color: #FFBB00 !important;
+    border-bottom: 1px solid #FFBB00;
+    display: inline-block;
+  }
  
   .btn-border-orange {
     border: 2px solid;
@@ -103,9 +117,7 @@
 .disme {
     display: none;
 }
-.disphone {
-    display: none;
-}
+
 
 .m-top{
     margin-top: 0 0 0 7rem !important;
@@ -141,8 +153,8 @@
     width: 110%;
 }
 
-.joodm {
-    background-image: url('images/GlobalLayer.png');
+.jooodm {
+    background-image: url('images/Layer\ 815.png');
     background-repeat: no-repeat;
     background-position: center;
 
@@ -224,6 +236,20 @@ button {
   margin: -1rem 0 0 0 !important;
 }
 
+
+#secondslide .owl-item {
+  transform: scale(.9);
+  transition: all 0.4s ease;
+  padding: 0 !important;
+  
+}
+#secondslide .owl-item.active.center {
+  transform: scale(1);
+  opacity: 1 !important;
+}
+
+
+
 @media (min-width: 576px) { 
   .my-m-top {
     margin-top: 4rem !important;
@@ -234,6 +260,12 @@ button {
     background-size: cover;
     color: white; 
   }
+  
+  
+  #secondslide{
+    min-height: 200px !important;
+  }
+  
   .p-bottom {
     padding-bottom: 8rem;
 }
