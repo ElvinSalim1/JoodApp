@@ -2,57 +2,20 @@ $(document).ready(function(){
     
     var owl = $('#firstslide');
     owl.owlCarousel({
-        loop: true,
-        margin: 5,
-        items: 4,
         autoplay: true,
         autoplayTimeout: 2000,
-        autolpayHoverPause: true,
-        responsive:{
-            0:{
-                items:1,
-                nav: true
-            },
-            600:{
-                items:3,
-                nav:true,
-                loop:true
-            },
-            1000:{
-                items:4,
-                nav:true,
-                loop:true
-            }
+        loop: true,
+        responsive:{0:{items:1},500:{items:1},800:{items:3},1000:{items:4}
         }
     })
 
     var owl2 = $('#secondslide');
     owl2.owlCarousel({
-        center: true,
-        items: 5,
         loop: true,
-        margin: 70,
         autoplay: true,
         autoplayTimeout: 2000,
-        autolpayHoverPause: true,
-        center: true,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: true
-            },
-            600: {
-                items: 3,
-                nav: true,
-                loop: true
-            },
-            1000:{
-                items: 5,
-                nav: true,
-                loop: true
-            }
-        }
+        center: true,   
+        responsive: {0:{items:3},500:{items: 3},1000:{items: 5}}
     })
 })
 
